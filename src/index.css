@@ -1,0 +1,13 @@
+.players-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  gap: 1rem;
+}
+.player-image {
+  height: 433px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image fits the dimensions without distortion */
+  border-radius: 8px; /* Optional: for rounded corners */
+}
